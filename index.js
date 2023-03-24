@@ -6,7 +6,7 @@ import { getDocument, updateDocument } from "./controller/documentController.js"
 import * as path from "path"
 
 const PORT = process.env.PORT || 9000;
-const MONGODB_URL = process.env.MONGODB_URL||'mongodb+srv://dhruvbajoria2001:vn3e9xfWP77tBO80@cluster0.adp1buq.mongodb.net/?retryWrites=true&w=majority';
+const MONGODB_URL = process.env.MONGODB_URL;
 
 await Connection(MONGODB_URL);
 
